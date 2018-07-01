@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }﻿
+
+.navbar-brand {
+min-height:20px;
+padding: 0 10px 10px;
+}
+.navbar-brand img {
+  height:140%;
+}
+.navbar-default .navbar-nav li a {
+  color:#D5D5D5;
+  font-family: Itim Cyrillic;
+  font-size:20px;
+}
+.navbar-default .navbar-nav li a:hover{
+color:#FFF;
+  }
+.navbar-default .navbar-nav li a:active {
+  color:#FFF;
+}
+#home {
+  background: url(imgq/llanding.jpg) no-repeat center center fixed;
+  display:table;
+  height:100%;
+  position:relative;
+  width:100%;
+  background-size:cover;
+
+}
+.landing-text {
+  display: table-cell;
+  text-align:center;
+  vertical-align:middle;
+}
+.landing-text h1 {
+  font-size:500%;
+  font-weight:700;
+  color:white;
+  font-family:GiddyupStd;
+}
+
+  .landing-text h3 {
+    font-size: 300%;
+    font-weight: bold;
+    color:white;
+    font-family:Inspiration;
+  }
+
+.padding {
+  padding: 80px 0;}
+
+.padding img {
+  width:100%;
+}
+.padding h4 {
+  font-family:Itim Cyrillic;
+  font-size: 18px;
+}
+#fixed {
+  background: url(imgq/landing1.jpg) no-repeat center center fixed;
+  display:table;
+  height:60%;
+  position: relative;
+  width:100%;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  background-color:#9c8788;
+  padding: 1% 1% 2% 1%;
+  color: #FFF;
+}
+.fa {
+  padding:15px;
+  font-size: 25px;
+  color:#FFF;
+}
+.fa:hover {
+  color: #D5D5D5;
+  text-decoration:none;
+}
+
+@media (max-width:768px) {
+  .landing-text h1 {
+    font-size:300%;
+  }
+  .fa {
+    font-size: 20px;
+    padding:10px;
+  }
+  .icon {
+    padding-top:5 %;
+    width:100px;
+  }
+
+  }
+
+.text-center h2 {
+  font-family:Inspiration;
+  font-size:200%;
+  font-weight:bold;
+}
+
+.footer-font h3 {
+  font-family: Itim Cyrillic;
+}
